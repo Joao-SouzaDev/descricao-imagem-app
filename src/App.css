@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+}
+.input-file{
+  max-width: fit-content;
+  max-height: 60vh;
+}
+.img-content{
+  max-width: 80vh;
+  align-items: center;
+}
+.img-desc{}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.conteiner{
+  align-items: center;
+  width: 100vh;
+  height: 98%;
+}
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 20vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  visibility: hidden;
+}
+
+/* Estilo opcional para indicar que o texto está sendo lido */
+.lendo {
+  color: #007BFF;
+}
